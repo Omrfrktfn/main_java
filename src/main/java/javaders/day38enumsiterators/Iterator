@@ -1,0 +1,13 @@
+Itereatorlar bir collectiondan eleman silme ve collectiondaki elemani degistirme konusunda looplara nazaran
+daha basarilidir.
+Iki tip iterator vardir. Birincisi sadece iterator olup bu sadece eleman silmede kullanilir.
+Eleman eklemek veya elemani degistirmek mumkun degildir.
+Ikincisi ise ListIterator olup, elaman silebilir, ekleyebilir ve degistirebilir.
+Iterator sadece soldan saga dogru for each loop gibi ilk elemandan son elemana kadar calisir.
+ListIterator ise iki yonlu calisabilir. Bastan sona, sondan bas elemana gidebilir.
+
+Main method icinde bir List olusturduk ve import ettik. Burada loop yerine Iterator kullandik.
+Once List'i Iterator'a donusturmeliyiz ki Iterator icindeki methodlari kullanabilelim.
+Listimizin ismini yazip nokta koyunca orada sirali methdolar icinde Iterator methodunu goruruz ve onu seceriz.
+Bu method bize String Iterator verir. Oyle olunce String Iterator conteynarina ihtiyacimiz olur.
+Biz de Iterator<String> myItr=myList.iterator() olarak conteynerimizi olusturduk. Burada while loop kullandik.
