@@ -1,6 +1,6 @@
 package projedenemeleri.kahvemakinesi;
 
-import projedenemeleri.kahvesiparisiprojesi.KahveMakinesi;
+//import projedenemeleri.kahvesiparisiprojesi.KahveMakinesi;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -21,7 +21,7 @@ public class E04 {
             System.out.println(el);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e.getCause());
-            System.out.println(e.getMessage());
+            System.out.println(" sonuc " + e.getMessage());
         }
     }
 }

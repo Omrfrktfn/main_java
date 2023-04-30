@@ -39,4 +39,6 @@ public class RusRuleti {
             return toplam;
 
     }
+
+
 }
