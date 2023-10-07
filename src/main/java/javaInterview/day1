@@ -1,0 +1,42 @@
+JVM : Java virtual machine
+derlenmis java kodlarini calistirmaktir.
+
+JRE : Java Runtime Environment
+java programlarinin calismasi icin gerekli olan temel java sistemidir
+
+JDK : Java Development Kit
+Java programlarini gelistirmek icin gerekli olan temel programlri ve sistemi icerir
+
+Java'daki erisim denetleyicileri (Acces Modifiers)
+ *public : proje icindeki diger tum siniflarca erisilebilir
+ *default : onune her hangibir sey yazilmaz. Ayni paket icindeki diger siniflar tarafindan erisilebilmesini saglar
+ *protected : farkli paket icindeki alt siniflarin atalarinin alanlarina ve metotlarina erisebilmesi icin
+ *private : field ve methodlarin sadece sinif icinden erisilebilmesi icin
+
+OOP kavaramlarini aciklayiniz
+-Abstraction (soyutlama) : kullaniciya sadece yapilabilecek isleri gostermek  ama nasil yapildigini gizlemektir
+ex:WebDriver driver = new ChromeDriver();
+Burada WebDriver interface'dir ChromeDriver da WebDriver interface'ini implement eden somut siniftir
+
+-Encapsulation (kapsulleme) :Bir class icindeki datalarin dis dunyadan gizlenmesi icin kullanilir
+Bunu gerceklestirmek icin sinifta tanimli degiskenler private olarak tanimlanir
+Bu degiskenlere erisim de public tanimli getter/setter metotlari ile gerceklestirilir
+ex: projemizde kullanidgimiz POJO class'lari bu sekildedir
+
+-Inheritance (kalitim,miras) : Bir sinif icindeki degisken veya methodlari kendi sinifimiz icerisinde kullanmamizi saglar
+iki sekilde gerceklesir
+extends:bir sinifin baska siniftan turetilmesi
+implementes : bir sinifin interface'deki metotlarin kodlarini gerceklestirmesi , coklu kalitim java'da yok
+ex: Framework de page object model'lerde bir BasePage olusturuyoruz. Bu BasePage'de tum ortak web elementleri ve methodlari koyariz
+Diger tum page'ler bundan extends ile uretilir
+
+- Polymorphosm(Cok bicimlilik) : Tanimli olan bir methodun farkli sekilde calisabilmesine imkan saglar
+*Metot overloading(static binding):ayni methodun farkli parametre sayisi, farkli parametre tipleriyle ayni sinif icinde tanimlanmasiyla
+gerceklesir
+
+*Metot overriding (dynamic binding) : Turetilen sinifin atasindaki metodun degistirilmesi
+
+
+
+
+
