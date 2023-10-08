@@ -1,0 +1,7 @@
+**Abstract Class vs Interface
+Abstract clas'dan bir nesne olusturulamaz                                   -Interface'den bir nesne olusturulamaz
+normal siniflardaki gibi degisken tanimliyabiliriz                          -tanimlanan degiskenler public static final olmalidir
+constructor vardir                                                          -constructor yoktur
+multiple inheritance yok                                                    -multiple inheritance var
+
+
